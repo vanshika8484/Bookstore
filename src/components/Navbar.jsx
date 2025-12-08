@@ -50,7 +50,7 @@ useEffect(() => {
         <a>Contact</a>
       </li>
       <li>
-        <a>About</a>
+        <a href="/about">About</a>
       </li>
     </>
   );
