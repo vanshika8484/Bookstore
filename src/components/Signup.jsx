@@ -21,9 +21,9 @@ const Signup = () => {
           </button>
         </div>
 
-        <h3 className="font-bold text-2xl text-center mb-6">Create Account</h3>
+        <h3 className="font-bold text-2xl text-center mb-6 text-black">Create Account</h3>
 
-        <div className="space-y-5">
+        <div className="space-y-5 text-black">
           <div>
             <label className="block text-sm font-medium">Name</label>
             <input

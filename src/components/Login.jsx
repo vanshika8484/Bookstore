@@ -17,9 +17,9 @@ const Login = () => {
           </button>
         </div>
 
-        <h3 className="font-bold text-2xl text-center mb-6">Welcome Back</h3>
+        <h3 className="font-bold text-2xl text-center mb-6 text-black">Welcome Back</h3>
 
-        <div className="space-y-5">
+        <div className="space-y-5 text-black">
           <div>
             <label className="block text-sm font-medium">Email</label>
             <input
@@ -44,7 +44,7 @@ const Login = () => {
             Login
           </button>
 
-          <p className="text-sm text-gray-600">
+          <p className="text-sm ">
             Don't have an account?{" "}
             <button
               onClick={() => navigate('/signup')}
