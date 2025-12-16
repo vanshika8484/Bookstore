@@ -26,5 +26,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Sever is listening on port ${PORT}`)
+  console.log(`Sever is listening on port ${port}`)
 })
