@@ -5,7 +5,7 @@ import cors from "cors"
 import bookRoute from "./route/bookRoute.js"
 import userRoute from "./route/userRoute.js"
 const app = express()
-const PORT = process.env.PORT || 4000;
+const port = process.env.PORT || 4000;
 const URI=process.env.MongoDBURI
 app.use(cors())
 app.use(express.json())
@@ -25,6 +25,6 @@ app.get('/', (req, res) => {
   res.send('Hello World guys!')
 })
 
-app.listen(PORT, () => {
+app.listen(port, () => {
   console.log(`Sever is listening on port ${PORT}`)
 })
