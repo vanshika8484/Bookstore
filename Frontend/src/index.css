@@ -15,3 +15,14 @@ body {
   --color-bg: #0f172a; /* This should match your dark.900 color */
   --color-text: #ffffff;
 }
+/* For light theme arrow visibility */
+.slick-prev:before, 
+.slick-next:before {
+  color: #494848 !important; /* Black arrows for light theme */
+}
+
+/* Optional: Add some spacing around the slider */
+.slider-container {
+  padding: 0 20px;
+  margin: 20px 0;
+}

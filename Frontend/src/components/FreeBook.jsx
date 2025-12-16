@@ -94,13 +94,15 @@ const FreeBook = () => {
           All free and available in most ereader formats.
         </p>
 
-        <div>
-          <Slider {...settings}>
-            {book.map((item) => (
-              <Cards item={item} key={item.id} />
-            ))}
-          </Slider>
-        </div>
+<div className="slider-container">
+  <Slider {...settings}>
+    {book.map((item) => (
+      <div key={item.id} style={{ padding: '0 10px' }}>  {/* Add padding between cards */}
+        <Cards item={item} />
+      </div>
+    ))}
+  </Slider>
+</div>
       </div>
     </>
   );
