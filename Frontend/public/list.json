@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Watching",
+    "author": "Jeffrey Jay Levin",
+    "price": "$0.99",
+    "category": "Free",
+    "image": "./images/book1.jpg",
+    "desc": "An immersive time travel by flashback story with Cold Case meets Medium vs. the mob vibes."
+  },
+  {
+    "id": 2,
+    "name": "The Savage",
+    "author": "Kris Nedy",
+    "price": "$2.99",
+    "category": "Free",
+    "image": "./images/book2.jpg",
+    "desc": "Born on a Pacific island ruled by ferocious cannibals, Kamolea is bound to an age-old prophecy that calls him to challenge his tribe’s dark legacy"
+  },
+  {
+    "id": 3,
+    "name": "Leadership Superpowers",
+    "author": "Gregor Purdyn",
+    "price": "$0.99",
+    "category": "Free",
+    "image": "./images/book3.jpg",
+    "desc": " Gregor Purdy introduces a practical system for diagnosing your unique leadership needs and transforming your impact in just 90 days."
+  },
+  {
+    "id": 4,
+    "name": "A Journey to the Centre of the Earth",
+    "author": "Jules Verne",
+    "price": "$0.95",
+    "category": "Free",
+    "image": "./images/book4.jpg",
+    "desc": "It is a classic science fiction novel by Jules Verne."
+  },
+  {
+    "id": 5,
+    "name": "Cataclysm",
+    "author": "Violet May",
+    "price": "$1.99",
+    "category": "Free",
+    "image": "./images/book5.jpeg",
+    "desc": "Cataclysm is a confessional journey into the mind of a man suffering loneliness and becoming tormented with obsession."
+  },
+  {
+    "id": 6,
+    "name": "Darker Than Blood",
+    "author": "Taylor Marsh",
+    "price": "$0.99",
+    "category": "Free",
+    "image": "./images/book6.webp",
+    "desc": "One stored snapshot squats in my brain. Sent me into panic fifteen years ago. No through line to alter my confusion. "
+  },
+  {
+    "id": 7,
+    "name": "The Funeral Train",
+    "author": "James Leonard",
+    "price": "$0.59",
+    "category": "Free",
+    "image": "./images/book7.jpg",
+    "desc": "When a funeral train brings coffins engraved with the names of the living, Snow Jacobs is forced to face a vengeful outlaw and his own past."
+  },
+  {
+    "id": 8,
+    "name": "The Serpent Woman",
+    "author": "SZ Estavillo",
+    "price": "$2.99",
+    "category": "Free",
+    "image": "./images/book8.jpg",
+    "desc": "A serial killer is on the loose—known only as The Serpent Woman."
+  },
+  {
+    "id": 9,
+    "name": "Death Pose",
+    "author": "D.P. Conway",
+    "price": "$0.99",
+    "category": "Free",
+    "image": "./images/book9.webp",
+    "desc": "A killer who stages his victims like works of art. A detective who refuses to look away. "
+  }
+]
