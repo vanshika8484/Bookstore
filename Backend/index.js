@@ -11,13 +11,20 @@ app.use(cors())
 app.use(express.json())
 
 //connect to mongoDB
-try{
-mongoose.connect(URI)
-console.log("connected to mongoDB");
-}
-catch(error){
-console.log(error)
-}
+const connectDB = async () => {
+  try {
+    await mongoose.connect(MONGODB_URI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    console.log('Connected to MongoDB');
+  } catch (error) {
+    console.error('MongoDB connection error:', error.message);
+    process.exit(1);
+  }
+};
+// Call the connectDB function
+connectDB();
 //defining routes
 app.use("/book",bookRoute);
 app.use("/user",userRoute);
