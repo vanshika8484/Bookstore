@@ -1,7 +1,6 @@
 import User from "../model/user_model.js";
 import {toast} from "react-toastify";
 import bcryptjs from "bcryptjs";
-import { cloneUniforms } from "three/src/renderers/shaders/UniformsUtils.js";
 export const signup=async(req,res)=>{
     try{
         const {fullname,email,password}=req.body;
